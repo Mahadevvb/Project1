@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <style>
+  body {
+      position: relative;
+  }
+  ul.nav-pills {
+      top: 20px;
+      position: fixed;
+  }
+  div.col-sm-9 div {
+      height: 250px;
+      font-size: 28px;
+  }
+  #section1 {color: #fff; background-color: blue;}
+  #section2 {color: #fff; background-color: #673ab7;}
+  #section3 {color: #fff; background-color: #ff9800;}
+  #section41 {color: #fff; background-color: #00bcd4;}
+  #section42 {color: #fff; background-color: #009688;}
+  
+  @media screen and (max-width: 810px) {
+    #section1, #section2, #section3, #section41, #section42  {
+        margin-left: 150px;
+    }
+  }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <div class="row">
+    <nav class="col-sm-3" id="myScrollspy">
+      <ul class="nav nav-pills nav-stacked">
+        <li class="active"><a href="#section1">Popular Dishes</a></li>
+        <li><a href="#section2">Starters</a></li>
+         <li><a href="#section3">Noodles</a></li>
+         <li><a href="#section41">Northfood</a></li>
+         <li><a href="#section42">SouthFood</a></li>                     
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    <div class="col-sm-9">
+      <div id="section1">    
+       <section class="menuview">
+						  <img src="biryani1.jpg" class="image">
+						 <article ="menulist">
+						   <div class="menuitems">
+						 <div class="menuv"> Chicken Dum Biryani </div>
+						 	<div class="menuv"> Biryani Dry Special Biryani  </div>
+						   	<div class="menuv"> Chicken Biryani Handi (Boneless) (2 Members) </div>
+						     <div class="menuv"> Chicken Biryani Handi (Boneless) (4 Members)  </div>
+       						 <div class="menuv"> Biryani Dry  Biryani </div>
+						
+					</div>
+				</div>
+			</div>
+  
+    </div>
+  </div>
+</div>
+
+</body>
+</html>                                		

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <style>
+  body {
+      position: relative;
+	  background:grey;
+  }
+  ul.nav-pills {
+    top:30px;
+    position:absolute;
+  }
+  
+   div.vendorbody{
+    width:980px;
+    height:1600px;
+    margin:2px auto 0;;
+    border:1px blue solid;
+ 
+ }
+ div.catghead{
+ width:100px;
+ top:10px;
+ 
+ } 
+ div.catghead>h2{
+ font-style: italic;
+    font-family: serif;
+	font-weight: bolder;
+	}
+	
+  div.col-sm-9 div {
+      height: 340px;
+      font-size: 21px;
+  }
+  div.containers
+{
+    margin:14px auto 0;
+    padding:10px;
+    width:310px;
+    border:2px black solid;	
+
+}
+ul.vendcuisins
+{
+    margin: -76px 0px;
+    padding-right: 9px;
+    float: right;
+
+}
+ul.vendcuisins>li
+{
+display:inline;
+}
+ #section1 {
+    color:black;
+    background-color:white;
+  }
+  #section2 {
+  color:black;
+  background-color:white;
+  }
+  #section3 {
+  color:black; 
+  background-color:white;
+  }
+  #section4 {
+  color:black;
+  background-color:white;
+  }
+  
+  @media screen and (max-width: 600px) {
+    #section1, #section2, #section3, #section41, #section42  {
+        margin-left: 150px;
+    }
+ }
+  </style>
+</head>
+<body >
+     <main>
+           <div class="containers">
+		      <section class="vendoerheader">
+     			  <img src="Biryani.jpg" width="80" height="80" data-src="vendors/" class="lazy-loaded">
+					<ul class="vendcuisins">
+					 <li><a href="#">Birayni</a></li>
+					   <li><a href="#">kabab</a></li>
+						 <li><a href="#">chines</a></li>
+				    	    <li><a href="#">southfood</a></li>
+								</ul>
+			  </section>
+	        </div>
+
+<div class="vendorbody">
+                 <div class="catghead">
+						 <h2>Birayni day menu</h2>
+						 </div>
+
+<div class="container">
+  <div class="row">
+    <nav class="col-sm-3" id="myScrollspy">
+      <ul class="nav nav-pills nav-stacked">
+        <li class="active"><a href="#section1">Popular dishes</a></li>
+        <li><a href="#section2">Manchurian</a></li>
+        <li><a href="#section3">Noodles</a></li>
+		        <li><a href="#section4">Rice</a></li>
+      </ul>
+    </nav>
+    <div class="col-sm-9">
+      <div id="section1">    
+        <img src="biryani1.jpg" class="image">
+		 <p> Chicken Dum Biryani <span style="padding-left:301px;">160rs</span> </p>
+		 <p> Biryani Dry Special Biryani <span style="padding-left:251px;">190rs</span> </p>
+		  <p> Chicken Biryani Handi (Boneless) (2 Members) <span style="padding-left:61px;">280rs</span>  </p> 
+		  <p> Chicken Biryani Handi (Boneless) (4 Members)<span style="padding-left:65px;">340rs</span></p> 
+       	 <p>  Biryani Dry  Biryani<span style="padding-left:331px;">240rs</span>   </p> 
+      </div>
+	  
+	  <div id="section2"> 
+	    <img src="gobi.png" class="image">
+        <p>Veg. Manchurian Dry<span style="padding-left:300px;">120rs</span></p>
+		 <p>paneer Manchurian Dry<span style="padding-left:275px;">140rs</span></p>
+		  <p>gobi Manchurian Dry<span style="padding-left:300px;">125rs</span></p>
+		   <p>corn Manchurian Dry<span style="padding-left:300px;">170rs</span></p>
+      </div>
+	  
+      <div id="section3">         
+         <img src="nood.png" class="image">
+        <p>Veg.noodles<span style="padding-left:382px;">130rs</span></p>
+		 <p>Egg noodles<span style="padding-left:380px;">160rs</span></p>
+		  <p>chiken noodles<span style="padding-left:358px;">180rs</span></p>
+		   <p>Chicken Hakka Noodles<span style="padding-left:277px;">190rs</span></p>
+		    <p>Chicken Schezwan Noodles<span style="padding-left:242px;">190rs</span></p>
+			 <p>Mix veg-Nonveg noodles<span style="padding-left:270px;">210rs</span></p>
+      </div>
+	  <div id="section4">         
+         <img src="tikka.png" class="image">
+        <p>curd rice<span style="padding-left:432px;">60rs</span></p>
+		 <p>Egg Biryani<span style="padding-left:402px;">90rs</span></p>
+		  <p>veg biryani<span style="padding-left:408px;">80rs</span></p>
+		   <p>Chicken biryani<span style="padding-left:362px;">110rs</span></p>
+		    <p>Plain Biryani<span style="padding-left:382px;">100rs</span></p>
+			 <p>Mutton Dum Biryani<span style="padding-left:316px;">160rs</span></p>
+      </div>	  
+    </div>
+  </div>
+</div>
+</div>
+</main>
+</body>
+</html>                                		
